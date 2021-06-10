@@ -19,6 +19,8 @@
 - eslint-plugin-jsx-a11y : 접근성 지원
 - eslint-plugin-react-hooks : 리액트 훅 지원
 
+`만약 cra로 프로젝트를 생성하였다면 ESlint가 내장되어 있으므로 설치하지 않아도 된다. 단 airbnb 관련 eslint 라이브러리들은 설치하도록 하자`
+
 <br/>
 
 ```javascript
@@ -46,7 +48,7 @@ npx install-peerdeps --dev eslint-config-airbnb
 <br/>
 
 ```javascript
-npm i -D eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint-config-prettier eslint-plugin-prettier prettier
 ```
 
 <br/>
